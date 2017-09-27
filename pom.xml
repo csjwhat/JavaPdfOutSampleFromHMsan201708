@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>iTextExam</groupId>
+  <artifactId>iTextExam</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+<dependencies>
+
+    <!-- add all iText Core modules -->
+<!-- CexE02_OELSample.java を使う場合は、下のコメントブロックを復活させる-->
+<!--
+    <dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>itext7-core</artifactId>
+        <version>7.0.4</version>
+        <type>pom</type>
+    </dependency>
+-->
+  <!-- https://mvnrepository.com/artifact/org.xhtmlrenderer/flying-saucer-pdf -->
+  <dependency>
+      <groupId>org.xhtmlrenderer</groupId>
+      <artifactId>flying-saucer-pdf</artifactId>
+      <version>9.1.6</version>
+  </dependency>
+
+
+
+</dependencies>
+
+
+</project>
